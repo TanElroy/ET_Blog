@@ -1,0 +1,9 @@
+---
+
+layout: home
+paginate: true
+alt_title: "Elroy Website"
+sub_title: " An area for all of Elroys Project, Documentations and insights to be stored."
+entries_layout: list
+
+---

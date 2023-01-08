@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tan Yuan Xiang  Elroy",
+    "label": "Pursuing Computer Engneering@Singapore polytechnic\n",
+    "image": "",
+    "email": "elroytanyuanxiang@gmail.com",
+    "phone": "(+65) 8838 5573",
+    "url": "https://tanelroy.github.io/ET_Blog/",
+    "summary": "I'm currently pursuing a Computer Engineering diploma at Singapore Polytechnic and will be graduating in March 2023.",
+    "location": {
+      "address": "Singapore"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Tan Yuan Xiang Elroy",
+        "url": "https://www.linkedin.com/in/tanyuanxiangelroy/"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Singapore Polytechnic",
+      "area": "Computer Engineering",
+      "studyType": "Polytechnic Diploma",
+      "startDate": "2020-12-31",
+      "endDate": "2023-12-31",
+      "score": "3.91"
+    },
+    {
+      "institution": "Hua Yi Secondary School",
+      "area": "general education",
+      "studyType": "High School Diploma",
+      "startDate": "2015-12-31",
+      "endDate": "2019-12-31",
+      "score": "",
+    },
+    {
+      "institution": "Singapore University of Technology and Design (SUTD)",
+      "area": "SP – SUTD Pathway Programme",
+      "studyType": "bachelor",
+      "startDate": "2022-09-07",
+      "endDate": "2022-12-16",
+      "score": "Pass",
+      "courses": [
+        "SUTD first semester courses"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "CPR(HANDS-ONLY)+AED PROVIDER ",
+      "issuer": "Singapore Red Cross",
+      "endDate": "2023-06-30",
+      "startDate": "2021-06-30"
+    },
+    {
+      "name": "STANDARD FIRST AID PROVIDER",
+      "issuer": "Singapore Red Cross",
+      "endDate": "2023-06-30",
+      "startDate": "2021-06-30"
+    },
+    {
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "startDate": "2021-06-30",
+      "url": "https://www.credly.com/badges/bb0646c6-eaa6-4570-a92b-91ba13beb86e?source=linked_in_profile"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

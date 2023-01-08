@@ -18,22 +18,50 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+lang: en-SG
 title: Elroys Website
 email: elroytanyuanxiang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- All of Elroys Project Documentations are stored in here
+ All of Elroys Project, Documentations and insites are stored in here
 baseurl: "ET_Blog" # the subpath of your site, e.g. /blog
+# baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
+# picture: #Path to a site-wide logo ~100x100px (e.g., /assets/your-company-logo.png)
+
+github_username:  tanelroy
+logo:
+
+search: True
+search_full_content:
+search_provider:
+
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
+  
 # Build settings
-# theme: jekyll-theme-basically-basic
+# theme: jekyll-theme-basically-basic@1.4.5
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
+feed:
+  path: atom.xml
 
+copyright: "Elroys Website."
+
+paginate: 10
+paginate_path: /page:num/
+
+# Liquid
+liquid:
+  error_mode: strict
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,3 +82,33 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - .asset-cache
+  - .bundle
+  - .codeclimate.yml
+  - .editorconfig
+  - .gitattributes
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .scss-lint.yml
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules
+  - Rakefile
+  - README
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+  # Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
