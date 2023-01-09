@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-# gem "webrick" # this to get rid of cannot load such file -- webrick (LoadError) error (https://github.com/jekyll/jekyll/issues/8523)
+gem "webrick" # this to get rid of cannot load such file -- webrick (LoadError) error (https://github.com/jekyll/jekyll/issues/8523)
 
 # gem "jekyll", "~> 4.3.1"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
+  gem "jekyll-algolia"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
