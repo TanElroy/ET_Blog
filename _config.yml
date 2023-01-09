@@ -23,8 +23,8 @@ title: Elroys Website
 email: elroytanyuanxiang@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  All of Elroys Project, Documentations and insites are stored in here
-# baseurl: "ET_Blog" # the subpath of your site, e.g. /blog
-baseurl: ""
+baseurl: "ET_Blog" # the subpath of your site, e.g. /blog
+# baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # picture: #Path to a site-wide logo ~100x100px (e.g., /assets/your-company-logo.png)
