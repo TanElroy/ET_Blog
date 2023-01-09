@@ -2,7 +2,7 @@
 layout: post
 title:  "Start of Elroy Website"
 date:   2022-12-16 16:52:58 +0800
-permalink: /Start/
+# permalink: /Start/
 categories: About Website
 author: Elroy
 ---
